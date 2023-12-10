@@ -11,7 +11,7 @@ function fibonacci(num) {
 		c=a+b;
 		val++;
 	}
-	console.log(c);
+	return c;
 }
 
 module.exports = fibonacci;
